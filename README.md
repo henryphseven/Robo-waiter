@@ -1,6 +1,6 @@
-# Dialogflow Fulfillment Webhook Template for Node.js and Cloud Functions for Firebase
+# Robo-waiter
 
-This webhook template sets up everything needed to build fulfillment for your Dialogflow agent.
+Robo-waiter is the capstone project of UCI Master of Computer Science Class of 2018 Group 7. It is a chatbot for ordering food at a restaurant. Please open "Demo Video.mp4" to see how it works. The system was built using Dialogflow, Node.js, Python, Django, and MySQL. Please refer to "Final Report.pdf" for the executive summary, the system requirements document, and the system design document. Facebook Messenger serves as the user interface. Due to Facebook's strict app release policy, the system remains private. Interested people can use "Robo-waiter.zip" to see how we set up natural language processing (NLP) features in Dialogflow and open JavaScript files in the functions folder to see how we implemented the back-end functions of the chatbot. 
 
 ## Setup Instructions: Firebase CLI
 
@@ -12,33 +12,3 @@ This webhook template sets up everything needed to build fulfillment for your Di
 6. Add your project to the sample with `firebase use in-n-out-chatbot`
 7. Run `firebase deploy --only functions:dialogflowFirebaseFulfillment`
 8. Back in Dialogflow Console > **Fulfillment** > **Enable** Webhook.
-
-**Make sure to test all functionalities are working as expected BEFORE push**
-
-## Samples 
-| Name                                 | Language                         |
-| ------------------------------------ |:---------------------------------|
-| [Fulfillment Webhook JSON](https://github.com/dialogflow/fulfillment-webhook-json)| JSON |
-| [Dialogflow Console Template](https://github.com/dialogflow/fulfillment-webhook-nodejs)| Node.js
-| [Bike Shop-Google Calendar API](https://github.com/dialogflow/fulfillment-bike-shop-nodejs)| Node.js|
-| [WWO Weather API](https://github.com/dialogflow/fulfillment-weather-nodejs)| Node.js |
-| [Alexa Importer](https://github.com/dialogflow/fulfillment-importer-nodejs) | Node.js |
-| [Temperature Trivia](https://github.com/dialogflow/fulfillment-temperature-converter-nodejs) | Node.js |
-| [Human-Agent](https://github.com/dialogflow/agent-human-handoff-nodejs) | Node.js |
-| [Google Translation API](https://github.com/dialogflow/fulfillment-translate-python) | Python |
-| [WWO Weather API](https://github.com/dialogflow/fulfillment-weather-python) | Python |
-
-
-## References & Issues
-* Fullfillment webhook for Node.js [Github](https://github.com/dialogflow/fulfillment-webhook-nodejs).
-* Dialogflow fullfillment library [Github](https://github.com/dialogflow/dialogflow-fulfillment-nodejs).
-* Questions? Try [StackOverflow](https://stackoverflow.com/questions/tagged/dialogflow).
-* Find a bug? Report it on [GitHub](https://github.com/dialogflow/fulfillment-webhook-json/issues).
-* Dialogflow [Documentation](https://dialogflow.com/docs/getting-started/basics).
-* For more information on [Initializing Firebase SDK for Cloud Functions](https://firebase.google.com/docs/functions/get-started#set_up_and_initialize_functions_sdk).
-
-## License
-See [LICENSE](LICENSE).
-
-## Terms
-Your use of this sample is subject to, and by using or downloading the sample files you agree to comply with, the [Google APIs Terms of Service](https://developers.google.com/terms/).
